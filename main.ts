@@ -21,6 +21,19 @@ if (!png.subarray(0, 8).equals(SIGNATURE)) {
   throw new Error("entry.png is not a PNG file");
 }
 
+// A valid PNG header needs at least 33 bytes: the 8-byte signature plus
+// the 25-byte IHDR chunk. Anything shorter cannot hold width and height.
+if (png.length < 33) {
+  throw new Error(
+    `entry.png is too short to be a valid PNG: ${png.length} bytes`,
+  );
+}
+
+// The first chunk must be IHDR: its four-byte type lives at offsets 12-15.
+if (!png.subarray(12, 16).equals(Buffer.from("IHDR"))) {
+  throw new Error("entry.png is not a valid PNG: first chunk is not IHDR");
+}
+
 // The IHDR chunk holds the width and height as big-endian uint32 values
 // at byte offsets 16 and 20. The competition allows at most 1024x1024.
 const width = png.readUInt32BE(16);

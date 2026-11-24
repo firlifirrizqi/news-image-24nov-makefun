@@ -6,37 +6,45 @@
 
 Referral code: v8vnayfm — https://make.fun?ref=v8vnayfm
 
-One newspaper front page that sums up **Tuesday 24 November 2026** in six
-stories, drawn entirely in code as a single 1024×1024 PNG. Entry for
-make.fun's "Sum up 24 November's world news in one image" bounty
-($100 in USDC, 50 paid places).
+One newspaper front page that sums up **Tuesday 24 November 2026** in
+fourteen stories, drawn entirely in code as a single 1024×1024 PNG. Entry
+for make.fun's "Sum up 24 November's world news in one image" bounty
+($100 in USDC, 50 paid places). This is the fourth revision (v4): it leads
+with the day's most talked-about stories after v3 ranked 638 of 7,302 in
+round 1.
 
-## The six stories
+## The seven core stories
 
-1. **Chess** — Gukesh defends his crown against Sindarov: Game 1 of the
-   14-game FIDE World Championship begins in Geneva; Sindarov has White
-   against the defending champion.
-2. **Space** — Falcon 9 lifts off with a secret Space Force satellite:
-   USSF-266 launches from Vandenberg in a four-hour window, carrying a
-   classified payload for the US Space Force.
-3. **Sky** — Beaver Supermoon peaks tonight: the closest full moon,
-   360,768 km away, passes the Pleiades before dawn.
-4. **Faith** — Sikhs mark Guru Nanak's 557th birth anniversary: Prakash
-   Purab celebrated in Amritsar and Nankana Sahib, with dawn prayers.
-5. **Sky** — Mars meets Regulus in Leo: the red planet passes 1.8° from
-   Leo's brightest star at 5 p.m. EST.
-6. **Faith** — Karthigai lamp lit in Madurai: the Supreme Court allows a
-   one-time lighting at the disputed Thiruparankundram pillar, temple
-   team only.
+1. **Markets (lead)** — Asian markets soar on Nvidia's record day: Seoul's
+   KOSPI jumps 6.32% to 5,006, Tokyo's Nikkei 3.91% to 58,645 and Taiwan's
+   Taiex 9.0% as Jensen Huang's return as Nvidia chief revives the AI
+   trade. Nvidia rose 31.5% on Monday, its best day since 2003.
+2. **Sport** — CAS gives Senegal its AFCON crown back: the court
+   unanimously upholds Senegal's appeal, confirming the 1-0 final win over
+   Morocco after CAF stripped the title in March for a 14-minute walk-off.
+3. **Sport** — Gukesh defends his crown against Sindarov: Game 1 of the
+   14-game FIDE World Championship is under way in Geneva; Sindarov opens
+   with 1.e4, Gukesh answers 1...e5.
+4. **World** — Israeli strike kills Hamas security chief in Gaza: Naeem Abu
+   Nahel, 50, director of Hamas' internal security, is killed by a drone
+   strike in western Gaza City; seven are killed across Gaza on Tuesday.
+5. **World** — 5.6 quake shakes Nepal near the Tibet border: the tremor
+   strikes at 7:17 a.m. near Olangchung Gola, about 275 km east of
+   Kathmandu; no casualties are reported.
+6. **Space** — Ariane 6 lifts 36 Amazon Leo satellites: VA271, the 10th
+   Ariane 6 flight, lifts off at 11:14 UTC from Kourou; 432 Leo satellites
+   now orbit Earth.
+7. **By the numbers** — $952bn (Nvidia's one-day gain), +6.32% (KOSPI
+   surge), $10m (Senegal's AFCON prize), 5.6 (Nepal quake magnitude).
 
-All six were first reported or happened on 24 November 2026, and none of
-them appears in the 23 November entry. Stories first reported on 20–23
-November were left out on purpose: the Japan oil task force was announced
-on 17 November, the India–China border talks were reported on 22 November,
-the Shroud of Turin DNA study dates from July, and BepiColombo entered
-Mercury orbit on 21 November. Japan's November flash PMIs were also left
-out: the release was scheduled for 24 November, but no reliable source had
-confirmed the actual numbers when this page was drawn.
+## Also on 24 November
+
+Falcon 9 lifts off with USSF-266 · Beaver Supermoon peaks 14:53 UTC ·
+Japan PMI 53.7 / 50.5 · Cisco + OpenAI launch Shirudo · Zaporizhzhia: 2
+killed, 40+ wounded · Mars meets Regulus 1.8° · Guru Nanak 557th.
+
+All fourteen were first reported or happened on 24 November 2026, and none
+of them appears in the 23 November entry.
 
 ## How it is made
 
