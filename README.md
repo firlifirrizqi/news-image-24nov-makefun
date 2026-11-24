@@ -9,9 +9,13 @@ Referral code: v8vnayfm — https://make.fun?ref=v8vnayfm
 One newspaper front page that sums up **Tuesday 24 November 2026** in
 fourteen stories, drawn entirely in code as a single 1024×1024 PNG. Entry
 for make.fun's "Sum up 24 November's world news in one image" bounty
-($100 in USDC, 50 paid places). This is the fourth revision (v4): it leads
-with the day's most talked-about stories after v3 ranked 638 of 7,302 in
-round 1.
+($100 in USDC, 50 paid places). This is the fifth revision (v5): an
+illustration redraw of v4 — same fourteen stories and verified facts,
+every illustration redrawn to match its story: the real NVIDIA logo and
+a polished rising chart lead the page, Nepal shows the earthquake
+itself (cracked ground, leaning buildings, dust, seismic rings), Geneva
+shows the real opening board (1.e4 e5), and every ticker item gets its
+own small illustration.
 
 ## The seven core stories
 
@@ -31,7 +35,7 @@ round 1.
 5. **World** — 5.6 quake shakes Nepal near the Tibet border: the tremor
    strikes at 7:17 a.m. near Olangchung Gola, about 275 km east of
    Kathmandu; no casualties are reported.
-6. **Space** — Ariane 6 lifts 36 Amazon Leo satellites: VA271, the 10th
+6. **Space** — Ariane 6 lifts 36 Amazon satellites: VA271, the 10th
    Ariane 6 flight, lifts off at 11:14 UTC from Kourou; 432 Leo satellites
    now orbit Earth.
 7. **By the numbers** — $952bn (Nvidia's one-day gain), +6.32% (KOSPI
@@ -51,8 +55,8 @@ of them appears in the 23 November entry.
 `main.ts` (Node 22, standard library only) validates `entry.png` — PNG
 signature, at most 1024×1024 pixels, at most 1 MiB — and copies it byte
 for byte to the output directory. The image itself was drawn by the
-accompanying Python script with PIL; running it twice produces identical
-bytes.
+accompanying Python script (`draw_news24_v5.py`) with PIL; running it
+twice produces identical bytes.
 
 ```sh
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
