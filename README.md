@@ -9,13 +9,15 @@ Referral code: v8vnayfm — https://make.fun?ref=v8vnayfm
 One newspaper front page that sums up **Tuesday 24 November 2026** in
 fourteen stories, drawn entirely in code as a single 1024×1024 PNG. Entry
 for make.fun's "Sum up 24 November's world news in one image" bounty
-($100 in USDC, 50 paid places). This is the fifth revision (v5): an
-illustration redraw of v4 — same fourteen stories and verified facts,
-every illustration redrawn to match its story: the real NVIDIA logo and
-a polished rising chart lead the page, Nepal shows the earthquake
-itself (cracked ground, leaning buildings, dust, seismic rings), Geneva
-shows the real opening board (1.e4 e5), and every ticker item gets its
-own small illustration.
+($100 in USDC, 50 paid places). This is the sixth revision (v6): a
+text-layout fix of v5 — same fourteen stories, same verified facts, same
+illustrations; only the text layout changed. In v5 the deck's third line
+of the chess, Gaza and Nepal cards ended exactly on the card's bottom
+border, and the By the Numbers box and the ticker's third line sat 3px
+from their edges. v6 gives every text block a clean margin: grid cards
+grow 210 to 214px tall, the deck leading tightens 15 to 14, the ticker
+strip grows 58 to 66px tall, and the script now refuses to draw any
+glyph within 8px of a card's bottom edge (2px border + 6px padding).
 
 ## The seven core stories
 
@@ -55,7 +57,7 @@ of them appears in the 23 November entry.
 `main.ts` (Node 22, standard library only) validates `entry.png` — PNG
 signature, at most 1024×1024 pixels, at most 1 MiB — and copies it byte
 for byte to the output directory. The image itself was drawn by the
-accompanying Python script (`draw_news24_v5.py`) with PIL; running it
+accompanying Python script (`draw_news24_v6.py`) with PIL; running it
 twice produces identical bytes.
 
 ```sh
