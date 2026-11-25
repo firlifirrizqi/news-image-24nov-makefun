@@ -14,7 +14,14 @@ news in one image" bounty ($100 in USDC, 50 paid places). This is the
 seventh revision (v7): a full broadsheet rebuild of v6, following the
 template the round-3 winners use — giant date masthead, region chips, a
 UTC timeline, 13 illustrated cards, a numbered world map, a numbered
-ALSO ON list, THE DAY IN NUMBERS, and a DATE CHECK box. Every card
+ALSO ON list, THE DAY IN NUMBERS, and a DATE CHECK box. This is the
+eighth revision (v8): a polish of v7 from the user's own feedback on
+the v7 image — the "PIP REVIEW" label inside card 13's document now
+fits entirely inside its box (8px, centred), the "SUPERMARKET" label
+in card 12 sits centred inside its blue header band, and the world
+map's landmasses are redrawn as recognisable continents with a thin
+outline instead of abstract green blobs. No fact, number or headline
+changed between v7 and v8. Every card
 carries a status badge (CONFIRMED / OFFICIAL / REPORTED / CLAIM) and a
 source attribution; every story is numbered 1–33 consistently across
 the cards, the map and the list.
@@ -106,10 +113,10 @@ and none of them appears in the 23 November entry.
 `main.ts` (Node 22, standard library only) validates `entry.png` — PNG
 signature, at most 1024×1024 pixels, at most 1 MiB — and copies it byte
 for byte to the output directory. The image itself was drawn by the
-accompanying Python script (`draw_news24_v7.py`) with PIL; running it
+accompanying Python script (`draw_news24_v8.py`) with PIL; running it
 twice produces identical bytes (verified 25 Nov 2026: two runs give
-sha256 `ab9fa642765250fa4bd09564b3f8d2d66b2fcbcb90982fb58af73ac2a2ca89b3`,
-262,428 bytes, and `main.ts` copies it byte-identically). The script
+sha256 `5797d1b904a657135b5d7dc7f0b8c05c03be0792881b7febcea7564531545a4b`,
+263,377 bytes, and `main.ts` copies it byte-identically). The script
 refuses to draw any glyph
 within 8px of a card or box bottom edge, and refuses a location line
 whose text plus status badge would not fit its card.
